@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jsexector:
+    image: visolleon/jsexector:latest
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./tasks:/app/tasks
+    environment:
+      - API_TOKEN=your-secret-token
+      - FILE_URL_PREFIX=http://localhost:3001
+      - SERVER_HOST=localhost
+      - SERVER_PORT=3001
+    restart: unless-stopped
