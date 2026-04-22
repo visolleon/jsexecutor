@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  jsexector:
-    image: visolleon/jsexector:latest
+  jsexecutor:
+    image: visolleon/jsexecutor:latest
     ports:
       - "3001:3001"
     volumes:
