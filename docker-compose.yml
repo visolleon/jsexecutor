@@ -12,4 +12,5 @@ services:
       - FILE_URL_PREFIX=http://localhost:3001
       - SERVER_HOST=localhost
       - SERVER_PORT=3001
+      - REQUEST_BODY_LIMIT=256kb
     restart: unless-stopped

@@ -41,6 +41,7 @@ The application can be configured via environment variables:
 - `FILE_URL_PREFIX`: Prefix for file URLs (default: `http://localhost:3001`)
 - `SERVER_HOST`: Server hostname (default: `localhost`)
 - `SERVER_PORT`: Server port (default: `3001`)
+- `REQUEST_BODY_LIMIT`: Request body size limit (default: `256kb`)
 - `NODE_ENV`: Environment mode (default: `development`)
 
 ### Usage
